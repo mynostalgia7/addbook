@@ -4,7 +4,9 @@
 # 오른쪽 버튼 메뉴 중 edit(수정) 활성화 하기 
 # 수정을 위한 EditDialog Class 추가 하고 이 다이얼로그에서 입력 받은 내용을 
 # MainWindow Class의 def edit_item(self):함수에서 적절히 처리 하고 화면을 리프래쉬 하기 
-
+# git branch -M main
+# git remote add origin https://github.com/mynostalgia7/addbook.git
+# git push -u origin main
 import sys
 from PyQt5.uic import loadUi
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QListWidgetItem, QMessageBox, QDialog, QLineEdit, QPushButton, QLabel
